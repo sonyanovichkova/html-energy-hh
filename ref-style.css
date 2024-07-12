@@ -42,12 +42,14 @@ h1 {
     text-align: left;
     margin-bottom: -10px;
     margin-top: 0px;
+    font-weight: 400;
 }
 
 h2 {
     font-family: 'CommitMono-400-Regular', monospace;
     font-size: 2rem; 
     margin-bottom: 0px;
+    font-weight: 400;
 }
 
 p.desc {
