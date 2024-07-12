@@ -84,16 +84,16 @@ a:hover + div.hid {
 
 
 div.list {
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-gap: 30px;
-margin-top: 30px;
-}
-
-div.cell {
-    width: 30%;
-}
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    gap: 30px;
+    margin-top: 30px;
+    }
+    
+    div.cell {
+        width: 65vw;
+    }
 
 a {
     text-decoration: none;
