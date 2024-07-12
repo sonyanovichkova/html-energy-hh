@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'CommitMono-400-Regular';
+    src: url('/Applications/XAMPP/xamppfiles/htdocs/html-energy/CommitMono-400-Regular.woff2') format('woff2');
+    src: url('/Applications/XAMPP/xamppfiles/htdocs/html-energy/CommitMono-400-Regular.woff') format('woff');
+  }
+
+@font-face {
+    font-family: 'HanaMeatball-Regular';
+    src: url('/Applications/XAMPP/xamppfiles/htdocs/html-energy/HanaMeatball-Regular.woff2') format('woff2');
+  }  
+
+body  {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh; /* Full viewport height */
+    margin-left: 7px;
+    width: 96vw;
+    position: fixed;
+}
+
+
+.start {
+    display: flex; /* Shrink to fit content */
+  align-content: flex-end;
+    flex-wrap: wrap;
+    height: 95vh;
+    width: 95%;
+}
+
+h1 {
+    font-family: 'CommitMono-400-Regular', monospace;
+    font-size: 8rem;
+    text-align: left;
+    margin-bottom: -10px;
+}
+
+p.desc {
+    font-family: 'HanaMeatball-Regular', sans-serif;
+    text-align: left;
+width: 95ch;
+margin-left: 7px;
+
+}
+
+p.text {
+    font-family: 'HanaMeatball-Regular', sans-serif;
+    text-align: left;
+align-self: flex-end;
+}
+
+p.menu {
+    font-family: 'HanaMeatball-Regular', sans-serif;
+    text-align: left;
+    margin-top: -10px;
+background-color: greenyellow;
+display: inline-block;
+}
+
+p.logo {
+    font-family: 'HanaMeatball-Regular', sans-serif;
+    text-align: right;
+    align-self: flex-end;
+position: absolute;
+margin-left: 90vw;
+background-color: gray;
+color: greenyellow;
+padding: 3px;
+line-height: 100%;
+}
+
