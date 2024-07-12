@@ -71,9 +71,6 @@ background-color: greenyellow;
 display: inline-block;
 }
 
-a {
-    background-color: greenyellow;
-}
 
 div.hid {
     display: none;
@@ -94,4 +91,23 @@ margin-top: 30px;
 
 div.cell {
     width: 30%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: greenyellow;
+    background-color: gray;
+}
+
+p.chosen {
+    font-family: 'HanaMeatball-Regular', sans-serif;
+    text-align: left;
+    margin-top: -10px;
+    color: greenyellow;
+background-color: grey;
+display: inline-block;
+pointer-events: none;
 }

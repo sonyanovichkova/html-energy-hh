@@ -63,6 +63,16 @@ background-color: greenyellow;
 display: inline-block;
 }
 
+p.chosen {
+    font-family: 'HanaMeatball-Regular', sans-serif;
+    text-align: left;
+    margin-top: -10px;
+    color: greenyellow;
+background-color: grey;
+display: inline-block;
+pointer-events: none;
+}
+
 p.logo {
     font-family: 'HanaMeatball-Regular', sans-serif;
     text-align: right;
@@ -73,5 +83,14 @@ background-color: gray;
 color: greenyellow;
 padding: 3px;
 line-height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: greenyellow;
+    background-color: gray;
 }
 
