@@ -7,7 +7,7 @@
 @font-face {
     font-family: 'HanaMeatball-Regular';
     src: url('HanaMeatball-Regular.woff2') format('woff2');
-  }  
+  }
 
 body  {
     margin-left: 20px;
@@ -47,7 +47,7 @@ h1 {
 
 h2 {
     font-family: 'CommitMono-400-Regular', monospace;
-    font-size: 2rem; 
+    font-size: 2rem;
     margin-bottom: 0px;
     font-weight: 400;
 }
@@ -90,26 +90,31 @@ details {
     z-index: 2;
     background-color: greenyellow;
   }
-  
+
   details>summary{
     transition: all 0.3s;
     z-index: 3;
   }
-  
+
   details[open] summary{
   color: greenyellow;
   background-color: grey;
   }
-  
+
   summary {
     margin-top: 30px;
 
     background-color: greenyellow;
     cursor: pointer;
   }
-  
+
   summary::-webkit-details-marker {
     display: none;
+  }
+
+
+  summary::marker {
+    content: "";
   }
 
 
