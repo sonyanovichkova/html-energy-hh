@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'CommitMono-400-Regular';
-    src: url('/Applications/XAMPP/xamppfiles/htdocs/html-energy/CommitMono-400-Regular.woff2') format('woff2');
-    src: url('/Applications/XAMPP/xamppfiles/htdocs/html-energy/CommitMono-400-Regular.woff') format('woff');
+    src: url('CommitMono-400-Regular.woff2') format('woff2');
+    src: url('CommitMono-400-Regular.woff') format('woff');
   }
 
 @font-face {
     font-family: 'HanaMeatball-Regular';
-    src: url('/Applications/XAMPP/xamppfiles/htdocs/html-energy/HanaMeatball-Regular.woff2') format('woff2');
+    src: url('HanaMeatball-Regular.woff2') format('woff2');
   }  
 
 body  {
