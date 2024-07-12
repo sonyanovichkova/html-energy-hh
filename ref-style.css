@@ -159,6 +159,7 @@ a.menu {
         margin-bottom: 0px;
   text-decoration: underline;
   color: black;
+  font-weight: 400;
 }
 
 a.menu:hover {
