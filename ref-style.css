@@ -115,7 +115,7 @@ div.list {
 display: flex;
 flex-direction: column;
 align-content: flex-start;
-gap: 30px;
+gap: 5px;
 margin-top: 30px;
 }
 
@@ -147,4 +147,17 @@ a {
 a:hover {
     color: greenyellow;
     background-color: gray;
+}
+
+a.menu {
+
+        font-family: 'CommitMono-400-Regular', monospace;
+        font-size: 2rem; 
+        margin-bottom: 0px;
+  text-decoration: underline;
+  color: black;
+}
+
+a.menu:hover {
+    background-color: greenyellow;
 }
