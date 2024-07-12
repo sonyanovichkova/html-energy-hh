@@ -105,6 +105,16 @@ a:hover {
     background-color: gray;
 }
 
+a.dr {
+    color: black;
+    background-color: greenyellow; 
+}
+
+a.dr:hover {
+    color: greenyellow;
+    background-color: gray; 
+}
+
 p.chosen {
     font-family: 'HanaMeatball-Regular', sans-serif;
     text-align: left;
